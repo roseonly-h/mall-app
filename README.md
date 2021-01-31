@@ -1,4 +1,6 @@
 # mall-app
+## 邮箱：rose_only@aliyun.com
+## 密码：123123
 
 ## Project setup
 ```

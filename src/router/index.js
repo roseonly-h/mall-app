@@ -100,8 +100,8 @@ router.beforeEach((to, from, next) => {
   if (to.path !== '/login') {
     if (store.state.user.appkey && store.state.user.username && store.state.user.role) {
       if (!isAddRoutes) {
-        // const menuRoutes = getMenuRoutes(store.state.user.role, asyncRouterMap)
-        const menuRoutes = getMenuRoutes('admin', asyncRouterMap)
+        const menuRoutes = getMenuRoutes(store.state.user.role, asyncRouterMap)
+//         const menuRoutes = getMenuRoutes('admin', asyncRouterMap)
         store.dispatch('changeMenuRoutes', routes.concat(menuRoutes)).then(() => {
           router.addRoutes(menuRoutes)
           next()

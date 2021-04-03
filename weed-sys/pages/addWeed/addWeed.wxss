@@ -1,0 +1,69 @@
+#add-weed{
+  height: 100%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-form{
+  width: 90%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+}
+.weed-name{
+  background-color: #fff;
+  height: 100rpx;
+  border-radius: 20rpx;
+}
+.weed-name input{
+  width: 100%;
+  height: 100%;
+  padding-left: 20rpx;
+}
+.weed-con,
+.weed-prev{
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  height: 180rpx;
+  padding-bottom: 20rpx;
+}
+.weed-con textarea,
+.weed-prev textarea{
+  padding-left: 20rpx;
+  height: 100%;
+  padding-top: 20rpx;
+}
+.preview{
+  display: flex;
+  justify-content: flex-start;
+}
+.pre-img{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  left: 220rpx;
+  top: 5rpx;
+}
+.preview image{
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.btns{
+  margin-top: 50rpx;
+}
+.btns button{
+  margin-top: 40rpx;
+  border-radius: 40rpx;
+  color: #fff;
+}
+.choose{
+  background-color: rgb(113, 98, 250);
+}
+.add-weed{
+  background-color: #d50310;
+}

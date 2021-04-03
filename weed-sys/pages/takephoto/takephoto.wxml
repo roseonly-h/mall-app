@@ -1,0 +1,9 @@
+<view>
+	<view>
+		<camera resolution="high" flash="off" binderror="error" style="width: 100%; height: 70vh;"></camera>
+	</view>
+	<view class="take">
+		<view class="chooseImage" bindtap="chooseImage">相册</view>
+		<view bindtap="takePhoto" class="camera-btn" ></view>
+	</view>
+</view>

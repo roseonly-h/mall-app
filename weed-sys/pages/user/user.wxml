@@ -1,0 +1,40 @@
+<view class="user-info-back">
+	<!-- <open-data type="userAvatarUrl" lang="zh_CN"></open-data> -->
+</view>
+<view class="user">
+	<view class="user-info">
+		<view class="user-info-avator">
+			<open-data type="userAvatarUrl" lang="zh_CN"></open-data>
+		</view>
+		<view class="user-info-mesage">
+			<open-data class="name" type="userNickName" lang="zh_CN"></open-data>
+			<view>
+				<open-data class="city" type="userProvince" lang="zh_CN"></open-data>
+				<open-data type="userCity" lang="zh_CN"></open-data>
+			</view>
+		</view>
+	</view>
+	<view class="user-content">
+		<view class="user-content-coo" bindtap="clickCoo">
+			<view>
+				<icon class="iconfont icon-hezuo"></icon>
+				<text>合作</text>
+			</view>
+			<icon class="iconfont icon-dayuhao"></icon>
+		</view>
+		<view class="user-content-menber" bindtap="clickMenber">
+			<view>
+				<icon class="iconfont icon-huiyuan_huaban1"></icon>
+				<text>成为会员</text>
+			</view>
+			<icon class="iconfont icon-dayuhao"></icon>
+		</view>
+		<view class="user-content-login" bindtap="clickLogin">
+			<view>
+				<icon class="iconfont icon-denglu"></icon>
+				<text>登录</text>
+			</view>
+			<icon class="iconfont icon-dayuhao"></icon>
+		</view>
+	</view>
+</view>

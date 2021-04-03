@@ -1,0 +1,31 @@
+.contain{
+  background: linear-gradient(rgba(241, 228, 33, 0.789),rgba(228, 18, 151, 0.714));
+}
+.text-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 50rpx;
+}
+.container-title{
+  font-weight: 700;
+  font-size: 50rpx;
+  text-shadow: 5rpx 5rpx 5rpx #fff;
+}
+.container-content{
+  margin-top: 30rpx;
+  padding: 0 50rpx;
+}
+.btns{
+  margin-top: 30rpx;
+}
+.btns button{
+  margin-top: 20rpx;
+  border-radius: 40rpx;
+  color: #fff;
+}
+
+.add-weed{
+  background-color: #d50310;
+}

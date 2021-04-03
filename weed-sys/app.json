@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/scan/scan",
+    "pages/addWeed/addWeed",
+    "pages/singlePage/singlePage",
+    "pages/modifyPage/modifyPage",
+    "pages/user/user",
+    "pages/home/home",
+    "pages/takephoto/takephoto",
+    "pages/showRes/showRes",
+    "pages/find/find",
+    "pages/weeding/weeding"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "杂草识别系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "icon/category.png",
+        "selectedIconPath": "icon/category-o.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "icon/find.png",
+        "selectedIconPath": "icon/find-.png"
+      },
+      {
+        "pagePath": "pages/takephoto/takephoto",
+        "text": "",
+        "iconPath": "icon/takephoto.jpeg",
+        "selectedIconPath": "icon/takephoto.jpeg"
+      },
+      {
+        "pagePath": "pages/weeding/weeding",
+        "text": "除草",
+        "iconPath": "icon/weeding.png",
+        "selectedIconPath": "icon/weeding-.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my-o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

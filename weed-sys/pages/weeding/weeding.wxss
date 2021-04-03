@@ -1,0 +1,49 @@
+@import '/icon/icon.wxss';
+
+page {
+  background-color: #eee;
+}
+
+.weeding-content {
+  width: 100%;
+  margin-top: 30rpx;
+}
+
+.weeding-content .weeding-content-exam,
+.weeding-content .weeding-content-lecture,
+.weeding-content .weeding-content-plan,
+.weeding-content .weeding-content-advisory {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  background-color: #fff;
+  border-bottom: 2rpx solid #ddd;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.weeding-content text {
+  margin-left: 20rpx;
+  font-weight: 500;
+  font-size: 36rpx;
+}
+
+.weeding-content .iconfont {
+  font-size: 32rpx;
+}
+
+
+.btns {
+  margin-top: 30rpx;
+}
+
+.btns button {
+  margin-top: 20rpx;
+  border-radius: 40rpx;
+  color: #fff;
+}
+
+.add-weed {
+  background-color: #d50310;
+}

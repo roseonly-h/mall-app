@@ -1,0 +1,25 @@
+<!-- 图片，名称，介绍，除杂方法 -->
+<view id="add-weed">
+	<form bindsubmit="formsubmit" class="add-form">
+		<view class="weed-name">
+			<text class="title">名称</text>
+			<input placeholder="请输入杂草名称" model:value="{{modifyData.weedName}}" name="weedName"></input>
+		</view>
+		<view class="weed-con">
+			<text class="title">简介</text>
+			<textarea maxlength="-1" placeholder="杂草介绍" model:value="{{modifyData.weedCons}}" name="weedCons"></textarea>
+		</view>
+		<view class="weed-prev">
+			<text class="title">防治方法</text>
+			<textarea maxlength="-1" placeholder="杂草防治" model:value="{{modifyData.weedPrev}}" name="weedPrev"></textarea>
+		</view>
+		<view class="preview">
+			<view class="pre-img">
+				<image src="{{modifyData.weedImage[0]}}" bindtap="previewImg" data-index="{{index}}" mode="aspectFill"></image>
+			</view>
+		</view>
+		<view class="btns">
+			<button class="add-weed" form-type="submit" open-type="getUserInfo">确认更改</button>
+		</view>
+	</form>
+</view>

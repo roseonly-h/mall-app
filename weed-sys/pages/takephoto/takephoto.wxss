@@ -1,0 +1,28 @@
+.take{
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.camera-btn{
+  width: 125rpx;
+  height: 125rpx;
+  background-color: aqua;
+  border-radius: 50%; 
+  padding: 10rpx;
+  border: 2rpx solid aqua;
+  background-color: aqua;
+  background-clip:content-box;
+}
+
+.chooseImage{
+  width: 100rpx;
+  height: 80rpx;
+  background-color: aqua;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  background-clip:content-box;
+  padding: 5rpx;
+  border: 2rpx solid aqua;
+}

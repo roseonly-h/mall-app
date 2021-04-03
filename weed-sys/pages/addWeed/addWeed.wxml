@@ -1,0 +1,24 @@
+<!-- 图片，名称，介绍，除杂方法 -->
+<view id="add-weed">
+	<form bindsubmit="formsubmit" class="add-form">
+		<view class="weed-name">
+			<input placeholder="请输入杂草名称" model:value="{{weedName}}" name="weedName"></input>
+		</view>
+		<view class="weed-con">
+			<textarea maxlength="-1" placeholder="杂草介绍" model:value="{{weedCons}}" name="weedCons"></textarea>
+		</view>
+		<view class="weed-prev">
+			<textarea maxlength="-1" placeholder="杂草防治" model:value="{{weedPrev}}" name="weedPrev"></textarea>
+		</view>
+		<view class="preview">
+			<view class="pre-img" wx:for="{{imageList}}" wx:key="index">
+				<image src="{{imageList[index]}}" bindtap="previewImg" data-index="{{index}}" mode="aspectFill"></image>
+				<icon type="clear" bindtap="removeImg" class="icon" data-index="{{index}}"></icon>
+			</view>
+		</view>
+		<view class="btns">
+			<button class="choose" bindtap="chooseImg">选择图片</button>
+			<button class="add-weed" form-type="submit" open-type="getUserInfo">提交信息</button>
+		</view>
+	</form>
+</view>

@@ -1,0 +1,20 @@
+<view class="showRes">
+  <view class="showFileImage">
+    <image src="{{filePath}}"></image>
+  </view>
+  <view class="showResImages">
+    <block wx:if="{{baike_res.length > 0}}">
+      <view wx:for="{{baike_res}}" wx:key="item" class="showResItem">
+        <text class="showName">{{item.name}}</text>
+        <image id="item.name" src="{{item.baike_info.image_url}}" class="image" bindtap="bindImage" data-name="{{item.name}}"></image>
+      </view>
+    </block>
+    <block wx:else>
+      <view class="showErr">
+        <image src="{{filePath}}"></image>
+      </view>
+    </block>
+  </view>
+  <view class="showText"  wx:if="{{baike_res.length > 0}}">点击图片查看详情</view>
+  <view class="showText" wx:else>非植物，请重新识别</view>
+</view>

@@ -1,0 +1,19 @@
+<view class="singleWeed">
+	<view class="single-img">
+		<image mode="aspectFit" src="{{singleWeed.weedImage[0]}}" bindtap="previewImg" data-index="{{0}}"></image>
+		<text>图片</text>
+	</view>
+		<view class="single-name">
+			<text class="title">名称： </text>
+			<text>{{ singleWeed.weedName }}</text>
+		</view>
+		<view class="single-cons">
+			<text class="title">简介：</text>
+			<text>{{ singleWeed.weedCons }}</text>
+		</view>
+		<view class="single-prev">
+			<text class="title">防治方法：</text>
+			<text>{{ singleWeed.weedPrev }}</text>
+		</view>
+
+</view>

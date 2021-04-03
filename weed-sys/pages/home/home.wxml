@@ -1,0 +1,9 @@
+<view class="container contain">
+	<view class="text-content">
+		<text class="container-title">杂草定论</text>
+		<text class="container-content">杂草是指生长在有害于人类生存和活动场地的植物，一般是非栽培的野生植物或对人类有碍的植物,广义的杂草定义则是指生长在对人类活动不利或有害于生产场地的一切植物。主要为草本植物，也包括部分小灌木、蕨类及藻类。全球经定名的植物有三十余万种，认定为杂草的植物约八千余种;在我国书刊中可查出的植物名称有36000多种，认定为杂草的植物有119科1200多种。杂草这个概念是相对的。比如蒲公英，当它生长在花盆里时就不是杂草；但是生长在野外时，它就变成了杂草。</text>
+	</view>
+  <view class="btns">
+    <button class="add-weed" bindtap="turnAddWeed">添加数据</button>
+  </view>
+</view>

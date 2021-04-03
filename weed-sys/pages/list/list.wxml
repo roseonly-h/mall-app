@@ -1,0 +1,41 @@
+<view>
+	<view class="search-h">
+	<icon type="search" class="icon"></icon>
+		<input type="text" class="input" placeholder="请输入你要“搜索”的内容" model:value="{{searchValue}}" />
+		<button class="search" bind:tap="handleSearch">搜索</button>
+	</view>
+	<block wx:if="{{isShow}}">
+		<view class="weedList" wx:for="{{weedList}}" wx:key="index">
+			<navigator url="/pages/singlePage/singlePage?weed_id={{weedList[index]._id}}">
+				<view class="weedList-img">
+					<image src="{{item.weedImage}}" mode="aspectFit"></image>
+				</view>
+				<view class="weedList-content">
+					<view class="weedList-content-name"> {{ item.weedName }} </view>
+					<view class="weedList-content-cons"> {{ item.weedCons }} </view>
+				</view>
+			</navigator>
+			<view class="weedList-btns">
+				<button class="weedList-mod" size="mini" bindtap="modWeed" data-id="{{item._id}}">修改</button>
+				<button class="weedList-del" size="mini" bindtap="delWeed" data-id="{{item._id}}">删除</button>
+			</view>
+		</view>
+	</block>
+	<block wx:else>
+		<view class="weedList" wx:for="{{searchList}}" wx:key="index">
+			<navigator url="/pages/singlePage/singlePage?weed_id={{weedList[index]._id}}">
+				<view class="weedList-img">
+					<image src="{{item.weedImage}}" mode="aspectFit"></image>
+				</view>
+				<view class="weedList-content">
+					<view class="weedList-content-name"> {{ item.weedName }} </view>
+					<view class="weedList-content-cons"> {{ item.weedCons }} </view>
+				</view>
+			</navigator>
+			<view class="weedList-btns">
+				<button class="weedList-mod" size="mini" bindtap="modWeed" data-id="{{item._id}}">修改</button>
+				<button class="weedList-del" size="mini" bindtap="delWeed" data-id="{{item._id}}">删除</button>
+			</view>
+		</view>
+	</block>
+</view>

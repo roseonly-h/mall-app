@@ -1,0 +1,33 @@
+.singleWeed{
+  height: 100%;
+  padding: 20rpx ;
+  background-color: #eee;
+  overflow: scroll;
+}
+.single-name{
+  margin-left: 20rpx;
+  margin-top: 50rpx;
+}
+.single-cons,
+.single-prev{
+  margin-top: 20rpx;
+}
+.title{
+  font-weight: 500;
+  font-size: large;
+}
+.single-img{
+  float: left;
+  width: 40vw;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rpx;
+}
+.single-img image{
+  height: 90%;
+  width: 100%;
+  border: 1rpx solid #ddd;
+  border-radius: 20rpx;
+}

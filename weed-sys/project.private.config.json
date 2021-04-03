@@ -1,0 +1,91 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "添加页面",
+          "pathName": "pages/addWeed/addWeed",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "列表",
+          "pathName": "pages/list/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "单个页面",
+          "pathName": "pages/singlePage/singlePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改页面",
+          "pathName": "pages/modifyPage/modifyPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "首页",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "拍照识别",
+          "pathName": "pages/takephoto/takephoto",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "识别结果",
+          "pathName": "pages/scan/scan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "显示拍照结果",
+          "pathName": "pages/showRes/showRes",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发现",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "除草",
+          "pathName": "pages/weeding/weeding",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

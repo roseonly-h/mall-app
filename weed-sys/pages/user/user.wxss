@@ -1,0 +1,75 @@
+@import '/icon/icon.wxss';
+page {
+  background-color: #eee;
+}
+
+.user-info-back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 300rpx;
+  background-color: #fff;
+  filter: blur(4rpx);
+  z-index: -1;
+}
+
+.user .user-info {
+  display: flex;
+  width: 100%;
+  height: 300rpx;
+  align-items: center;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  /* margin-left: 50rpx; */
+}
+
+.user .user-info-avator{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+.user .user-info-mesage{
+  margin-left: 50rpx;
+  display: flex;
+  flex-direction: column;
+  height: 150rpx;
+  justify-content: space-around;
+  font-size: 32rpx;
+  font-weight: 100;
+}
+.user .user-info-mesage .name{
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.user .user-info-mesage .city{
+  margin-right: 5rpx;
+}
+
+.user-content{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.user-content .user-content-coo,
+.user-content .user-content-menber,
+.user-content .user-content-login{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  background-color: #fff;
+  border-bottom: 2rpx solid #ddd;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.user-content text{
+  margin-left: 20rpx;
+  font-weight: 500;
+  font-size: 36rpx;
+}
+
+.user-content .iconfont{
+  font-size: 32rpx;
+}

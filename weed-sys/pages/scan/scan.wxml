@@ -1,0 +1,11 @@
+<view class="baike">
+  <view class="baike-info">
+    <view class="baike-info-name">{{baike_info_name}}</view>
+    <view class="baike-info-img">
+      <image src="{{baike_info_image_url}}" data-url="{{baike_info_image_url}}" bindtap="previewImg"></image>
+    </view>
+    <view class="baike-info-des">
+      <text user-select="true">{{baike_info_des ? baike_info_des : "暂无更多介绍"}}</text>
+    </view>
+  </view>
+</view>

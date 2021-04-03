@@ -1,0 +1,29 @@
+  <view class="weeding-content">
+    <view class="weeding-content-exam" bindtap="clickExam">
+      <view>
+        <text>案例</text>
+      </view>
+      <icon class="iconfont icon-dayuhao"></icon>
+    </view>
+    <view class="weeding-content-lecture" bindtap="clickLecture">
+      <view>
+        <text>讲座</text>
+      </view>
+      <icon class="iconfont icon-dayuhao"></icon>
+    </view>
+    <view class="weeding-content-plan" bindtap="clickPlan">
+      <view>
+        <text>方案</text>
+      </view>
+      <icon class="iconfont icon-dayuhao"></icon>
+    </view>
+    <view class="weeding-content-advisory" bindtap="clickAdvisory">
+      <view>
+        <text>咨询</text>
+      </view>
+      <icon class="iconfont icon-dayuhao"></icon>
+    </view>
+  </view>
+  <view class="btns">
+    <button class="add-weed" bindtap="turnAddWeed">添加数据</button>
+  </view>

@@ -1,0 +1,46 @@
+@import '/icon/icon.wxss';
+
+.arc-content{
+  display: flex;
+  background-color: #eee;
+  height: 100%;
+  flex-direction: column;
+  overflow: scroll;
+}
+.arc-content .arc-item{
+  display: flex;
+  margin: 10rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  background-clip: content-box;
+  padding: 5rpx;
+  border: 2rpx solid #fff;
+}
+.arc-content .arc-item .arc-item-img image{
+  width: 300rpx;
+  height: 200rpx;
+  padding: 10rpx;
+}
+.arc-content .arc-item-des {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.arc-content .arc-item-des .arc-item-title{
+  width: 380rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.arc-content .arc-item-des .arc-item-num{
+  font-size: 24rpx;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 30rpx;
+}
+.arc-content .arc-item-des .arc-item-num .view{
+  margin-right: 15rpx;
+}
+
